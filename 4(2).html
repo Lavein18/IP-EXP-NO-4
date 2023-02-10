@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+function checkString(str) {
+    if(str.startsWith('a,e,i,o,u') && str.endsWith('a,e,i,o,u')) {
+        console.log('The string starts with vowels and ends with vowels');
+    }
+    else {
+        console.log('The string does not start with vowels and does not end with vowels');
+    }
+}
+let string = prompt('Enter a string: ');
+checkString(string);
+</script>
+</body>
+</html>
